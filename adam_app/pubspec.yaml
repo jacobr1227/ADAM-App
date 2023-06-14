@@ -1,0 +1,37 @@
+name: adam_app
+description: A Database for All Metroids.
+publish_to: 'none'
+version: 0.9.8
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive:
+  hive_flutter:
+  auto_size_text:
+  cached_network_image:
+  share_plus:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator:
+  build_runner:
+  flutter_launcher_icons:
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/icon.png"
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Serpentine
+      fonts:
+        - asset: fonts/Serpentine.ttf
